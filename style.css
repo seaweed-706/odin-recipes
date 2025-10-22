@@ -1,5 +1,12 @@
-li{
+h1{ /* 所有h1都會套用 */
+    text-align: center;
+    color: lime;
+    font-family: 'Arial', sans-serif;
+}
+
+.menu_item {    /* 有套menu_item這個class的都會套用 */
     margin: 8px auto;
+    font-family: 'Verdana', sans-serif;
     /*text-align: center;*/
     /*background-color: lightgreen;*/
 }
